@@ -1,0 +1,26 @@
+{
+    "ротор": {
+        "ingredients": {"железный прут": 20, "винт": 100},
+        "input": {"20": "железный прут", "100": "винт"},
+        "output": 4,
+        "building": "Assembler"
+    },
+    "железный прут": {
+        "ingredients": {"железный слиток": 15},
+        "input": {"15": "железный слиток"},
+        "output": 15,
+        "building": "Constructor"
+    },
+    "винт": {
+        "ingredients": {"железный прут": 10},
+        "input": {"10": "железный прут"},
+        "output": 40,
+        "building": "Constructor"
+    },
+    "железный слиток": {
+        "ingredients": {"железная руда": 30},
+        "input": {"30": "железная руда"},
+        "output": 30,
+        "building": "Smelter"
+    }
+}
